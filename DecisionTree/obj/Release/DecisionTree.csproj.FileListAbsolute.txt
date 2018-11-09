@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\Desktop\DetectionSVN\DVMBot\DecisionTree\bin\Release\BiotrackerDecisionTree.dll
+C:\Documents and Settings\Administrator\Desktop\DetectionSVN\DVMBot\DecisionTree\bin\Release\BiotrackerDecisionTree.pdb
+C:\Documents and Settings\Administrator\Desktop\DetectionSVN\DVMBot\DecisionTree\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\DetectionSVN\DVMBot\DecisionTree\obj\Release\BiotrackerDecisionTree.dll
+C:\Documents and Settings\Administrator\Desktop\DetectionSVN\DVMBot\DecisionTree\obj\Release\BiotrackerDecisionTree.pdb
+C:\Documents and Settings\Administrator\Desktop\Detection Subproject\DetectionSVN\DVMBot\DecisionTree\bin\Release\BiotrackerDecisionTree.dll
+C:\Documents and Settings\Administrator\Desktop\Detection Subproject\DetectionSVN\DVMBot\DecisionTree\bin\Release\BiotrackerDecisionTree.pdb
+C:\Documents and Settings\Administrator\Desktop\Detection Subproject\DetectionSVN\DVMBot\DecisionTree\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Detection Subproject\DetectionSVN\DVMBot\DecisionTree\obj\Release\BiotrackerDecisionTree.dll
+C:\Documents and Settings\Administrator\Desktop\Detection Subproject\DetectionSVN\DVMBot\DecisionTree\obj\Release\BiotrackerDecisionTree.pdb

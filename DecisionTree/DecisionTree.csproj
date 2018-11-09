@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56DE652E-67E3-4E5D-9020-D8CEF3C10F5B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Biotracker.Signature.DT</RootNamespace>
+    <AssemblyName>BiotrackerDecisionTree</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnchorNode.cs" />
+    <Compile Include="Attribute.cs" />
+    <Compile Include="AttributeSet.cs" />
+    <Compile Include="AttributeValue.cs" />
+    <Compile Include="DecisionTree.cs" />
+    <Compile Include="Entropy.cs" />
+    <Compile Include="IdSymbolicAttribute.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="KnownNumericalValue.cs" />
+    <Compile Include="KnownSymbolicValue.cs" />
+    <Compile Include="LeafNode.cs" />
+    <Compile Include="LearningDecisionTree.cs" />
+    <Compile Include="LearningLeafNode.cs" />
+    <Compile Include="LearningNode.cs" />
+    <Compile Include="LearningOpenNode.cs" />
+    <Compile Include="LearningTestNode.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="NumericalAttribute.cs" />
+    <Compile Include="NumericalTest.cs" />
+    <Compile Include="NumericalValue.cs" />
+    <Compile Include="OpenNode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScoreTestNode.cs" />
+    <Compile Include="SimpleDecisionTreeBuilder.cs" />
+    <Compile Include="SymbolicAttribute.cs" />
+    <Compile Include="SymbolicTest.cs" />
+    <Compile Include="SymbolicValue.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="TestDecisionTree.cs" />
+    <Compile Include="TestNode.cs" />
+    <Compile Include="TestScore.cs" />
+    <Compile Include="UnknownNumericalValue.cs" />
+    <Compile Include="UnknownSymbolicValue.cs" />
+    <Compile Include="WeightedItemSet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ItemSet.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Biotracker.Client.ProcessMonitor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Version" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0.2</Value>
+    </Setting>
+    <Setting Name="TrainingPercentage" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="DataSvcPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8700</Value>
+    </Setting>
+    <Setting Name="DBSvrAddr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">142.104.64.201</Value>
+    </Setting>
+    <Setting Name="DBUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BASSAM</Value>
+    </Setting>
+    <Setting Name="DBPwd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PASSWORD</Value>
+    </Setting>
+    <Setting Name="DBSchema" Type="System.String" Scope="User">
+      <Value Profile="(Default)">detectorplugindb</Value>
+    </Setting>
+    <Setting Name="DBInstance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Local MySQLSvr</Value>
+    </Setting>
+    <Setting Name="ErrorLog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">error.log</Value>
+    </Setting>
+    <Setting Name="SignatureFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3rdMergedSigature.xml</Value>
+    </Setting>
+    <Setting Name="TimeWindow" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

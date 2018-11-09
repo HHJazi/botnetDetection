@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>01-01-2014 22:07:22 Begin full analysis with NDepend v5.1.0.8180</Info>
+  <Info>No Baseline for Comparison loaded.</Info>
+  <Info>Concurrent mode</Info>
+  <Info>.NET Assemblies loaded from {C:\Windows\Microsoft.NET\Framework\v4.0.30319} 
+   mscorlib.dll   v4.0.0.0
+   System.Xml.dll   v4.0.0.0
+   System.dll   v4.0.0.0
+   System.Core.dll   v4.0.0.0
+   System.Windows.Forms.dll   v4.0.0.0
+   System.ServiceModel.dll   v4.0.0.0
+   System.Drawing.dll   v4.0.0.0
+   System.Runtime.Serialization.dll   v4.0.0.0</Info>
+  <Warning>No application or third party assembly found in folder {C:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF}</Warning>
+  <Info>.NET Assembly loaded from {E:\REading course\DVMBot - 2\DecisionTree\bin\Debug} 
+   BiotrackerDecisionTree.dll   v1.0.0.0</Info>
+  <Info>.NET Assemblies loaded from {E:\REading course\DVMBot - 2\FlowDetectorServer\bin\Debug} 
+   FlowDetectorServer.exe   v1.0.0.0
+   MySql.Data.dll   v1.0.10.0</Info>
+  <Info>28 source files parsed ; 30 source files not found ; all source files in-sync with PDB</Info>
+  <Info>0 code rule has been extracted from code.</Info>
+  <Info>No dependency cycle detected in assemblies referencement graph.</Info>
+  <Warning>The source directory {c:\reading course\vm ware\DetectionSVN\DVMBot\DecisionTree} referenced by the PDB file of the assembly {BiotrackerDecisionTree} can't be found.</Warning>
+  <Info>01-01-2014 22:07:24 Log trend metrics values.</Info>
+  <Info>01-01-2014 22:07:30 NDepend analysis done. Duration: 00:08</Info>
+</InfoWarnings>
